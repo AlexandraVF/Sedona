@@ -19,6 +19,7 @@ h2 {
   line-height: 1;
   color: #000000;
   font-weight: 700;
+  margin: 0;
 }
 
 a {
@@ -33,6 +34,7 @@ a {
 
 .wrapper {
   width: 1200px;
+  margin: 0 auto;
 }
 
 .main-nav ul {
@@ -98,8 +100,73 @@ a {
 
 .features-image-1,
 .features-image-2 {
+  float: left; 
   width: 67%;
 }
+
+.hotel-wrapper {
+  width: 1055px;
+  margin: 0 auto;
+}
+
+.header-image-hotels {
+  height: 220px;
+  background-image: url(../img/header-image-zoom.jpg);
+  background-repeat: no-repeat;
+}
+.structure-filter {
+  width: 240px;
+  float: left;
+}
+
+.structure-filter label {
+  display: block;
+}
+.type-filter {
+  width: 480px;
+  float: left;
+}
+
+.type-filter label {
+  display: block;
+}
+
+.cost-filter{
+  width: 327px;
+  float: right;
+}
+
+.filter-content-header div {
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+.filter-content-header ul li {
+  display: inline-block;
+}
+
+.filter-image{
+  width: 135px;
+  float: left;
+  margin-right: 30px;
+}
+
+.filter-info{
+  width: 650px;
+  float: left;
+}
+
+.filter-info div {
+  display: inline-block;
+}
+
+.filter-rate{
+  width: 240px;
+  float: right;
+}
+
+
+
 
 
 
