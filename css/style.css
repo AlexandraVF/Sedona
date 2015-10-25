@@ -21,5 +21,88 @@ h2 {
   font-weight: 700;
 }
 
+a {
+  text-decoration: none;
+}
+
+.clearfix:after{
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.wrapper {
+  width: 1200px;
+}
+
+.main-nav ul {
+  padding: 0;
+  margin: 0 6%;
+  font-size: 0;
+}
+.main-nav li {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 14px;
+  width: 20%;
+}
+
+.main-nav .logo{
+  height: 55px;
+  background-image: url(../img/logo.png);
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.main-nav .nav-item-left {
+  text-align: left;
+}
+
+.main-nav .nav-item-right {
+  text-align: right;
+}
+
+.header-image {
+  width: 100%;
+  height: 540px;
+  background-image: url("../img/header-image.jpg");
+  background-repeat: no-repeat;
+}
+
+.header-image-words {
+  width: 470px;
+  height: 370px;
+  background-image: url(../img/image-words.png);
+  background-repeat: no-repeat;
+  margin: 0 auto;  
+}
+
+.header-image-mask {
+  width: 100%;
+  height: 57px;
+  background-image: url(../img/header-image-mask.png);
+  background-repeat: no-repeat;
+}
+
+.col-1,
+.col-2 {
+  width: 33%;
+  float: left;
+}
+
+.col-3 {
+  width: 33%;
+  float: right;
+}
+
+.features-image-1,
+.features-image-2 {
+  width: 67%;
+}
+
+
+
+
 
 
