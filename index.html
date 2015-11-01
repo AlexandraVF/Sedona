@@ -2,20 +2,22 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>Sedona. Главная страница</title>
+    <title>Sedona. Главная страница</title>  
+    <link href="css/normalize.css" rel="stylesheet">  
     <link href="css/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=latin,cyrillic" rel="stylesheet">
   </head>
   <body>
     <div class="wrapper">
       <header class="main-header">      
-          <nav class="main-nav">
-            <ul>
-              <li class="nav-item nav-item-left"><a href="#">Информация</a></li>
-              <li class="nav-item nav-item-left"><a href="#">Фото и видео</a></li>          
-              <li><a class="logo" href="index.html"></a></li>   
-              <li class="nav-item nav-item-right"><a href="#">Карта штата</a></li>
-              <li class="nav-item nav-item-right"><a href="#">Гостиницы</a></li>
-            </ul>
+        <nav class="main-nav">
+          <ul>
+            <li class="nav-item nav-item-left"><a href="#">Информация</a></li>
+            <li class="nav-item nav-item-left"><a href="#">Фото и видео</a></li>          
+            <li><a class="logo" href="index.html"></a></li>   
+            <li class="nav-item nav-item-right"><a href="#">Карта штата</a></li>
+            <li class="nav-item nav-item-right"><a href="hotels.html">Гостиницы</a></li>
+          </ul>
         </nav>
         <div class="header-image">          
           <div class="header-image-words"></div>         
@@ -62,7 +64,7 @@
         </div>
         <div class="clearfix features">       
           <div class="col-2"><img src="img/features-image-2.jpg" width="800" height="256" alt="Sedona-2"></div> 
-          <div class="col-3 features-item">
+          <div class="col-3 features-item col-blue">
             <div class="col-wrapper">
               <h2>Там есть Мост Дьявола</h2>
               <p class="number">&mdash; №2 &mdash;</p>
@@ -94,24 +96,22 @@
           </div>
         </div>
         <div class="block-search">
-          <p>Заинтересовались?</p>
+          <p class="block-search-header">Заинтересовались?</p>
           <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
-          <a href="">Поиск гостиницы в Седоне</a>
+          <a class="search-link" href="#">Поиск гостиницы в Седоне</a>
           <div class="form-search">
             <form action="">
               <div>
-                <label for="">Дата заезда</label><input type="text" value="24 апреля 2014">
+                <label for="date-in">Дата заезда</label><input type="text" id="date-in" value="24 апреля 2014">
               </div>
               <div>
-                <label for="">Дата выезда</label><input type="text" value="4 июля 2014">
+                <label for="date-out">Дата выезда</label><input type="text" id="date-out" value="4 июля 2014">
               </div>
-              <div>
-                <label for="">Взрослые</label><input type="text" value="2">
-                <label for="">Дети</label><input type="text" value="0">
-              </div>
-              <div>
-                <input class="btn" type="button" value="Найти">
-              </div>
+              <div class="people-number">
+                <label for="adult">Взрослые</label><input type="text" id="adult" value="2">
+                <label for="children">Дети</label><input type="text" id="children" value="0">
+              </div>              
+              <input class="btn" type="button" value="Найти">              
             </form>
           </div>
         </div>
