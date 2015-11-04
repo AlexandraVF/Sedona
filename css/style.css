@@ -345,6 +345,64 @@ img {
   display: inline-block;
 }
 
+.triangles a {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.triangle-bottom {
+  margin-top:5px;
+  margin-right: 5px;
+  background-color: transparent;
+  width: 0px;
+  height: 0px;
+  border: 5px transparent solid;
+  border-top: 9px #81b3d2 solid;
+}
+
+.triangle-top {
+  margin-bottom: 5px;
+  background-color: transparent;
+  width: 0px;
+  height: 0px;
+  border: 5px transparent solid;
+  border-bottom: 9px #cccccc solid;
+}
+
+.rate-value {
+  background-color: #f2f2f2;
+  padding: 5px 10px;
+  width: 90px;
+  position: relative;
+  left: 100%;
+  margin-left: -110px;
+}
+
+.rate-stars {
+  position: relative;
+  left: 100%;
+  height: 16px;
+  background-image: url(../img/rate-star.png);
+  background-position: right;  
+  margin-bottom: 45px;
+}
+
+.rate-stars-4{
+  width: 64px;
+  margin-left: -64px;
+}
+
+.rate-stars-2{
+  width: 32px;
+  margin-left: -32px;
+}
+
+.rate-stars-3{
+  width: 48px;
+  margin-left: -48px;
+}
+
+
 
 
 
