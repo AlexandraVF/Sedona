@@ -299,62 +299,52 @@ img {
   margin: 0 auto;
 }
 
+.hotel-col-1 {
+  width: 16%;  
+}
+
+.hotel-col-2 {
+  width: 53%;  
+}
+
+.hotel-col-3 {
+  width: 31%; 
+  text-align: right;
+}
+
+.hotel-col {
+  float: left;
+  padding: 25px 0;
+}
+
 .header-image-hotels {
   width: 100%;
   height: 220px;
   background-image: url(../img/header-image-zoom.jpg);
   background-repeat: no-repeat;
 }
-.structure-filter {
-  width: 240px;
-  float: left;
-}
 
 .structure-filter label {
   display: block;
 }
-.type-filter {
-  width: 480px;
-  float: left;
+
+.hotel-filter>.hotel-col-2 {
+  box-sizing: border-box;
+  padding-left: 7.5%;
 }
 
 .type-filter label {
   display: block;
 }
 
-.cost-filter{
-  width: 327px;
-  float: right;
-}
-
-.filter-content-header div {
-  display: inline-block;
-  vertical-align: bottom;
-}
-
 .filter-content-header ul li {
   display: inline-block;
-}
-
-.filter-image{
-  width: 135px;
-  float: left;
-  margin-right: 30px;
-}
-
-.filter-info{
-  width: 650px;
-  float: left;
 }
 
 .filter-info div {
   display: inline-block;
 }
 
-.filter-rate{
-  width: 240px;
-  float: right;
-}
 
 
 
