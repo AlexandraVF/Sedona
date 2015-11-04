@@ -269,6 +269,24 @@ img {
   padding: 3% 0;
 }
 
+.footer-copyright, 
+.footer-logo-icon {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.footer-logo-icon {
+  width: 113px;
+  height: 39px;
+  background-image: url(../img/footer-logo.png);
+  background-repeat: no-repeat;
+}
+
+.sedona-tag>a{
+  display: block;
+  font-size: 21px;
+}
+
 .social-btn {  
   display: inline-block;
   width: 45px;
