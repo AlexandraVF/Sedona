@@ -4,7 +4,7 @@ body {
   color: #333333;
   font-weight: 400;
   text-transform: uppercase;
-  font-family: PTSans, Arial, sans-serif;
+  font-family: "PT Sans", "Arial", sans-serif;
 }
 
 h2 {
@@ -177,11 +177,12 @@ img {
   width: 570px;
   margin: 0 auto;
   padding-top: 55px;
+  position: relative;
 }
 
 .block-search-header {
   font-size: 30px;
-  font-weight: 700px;
+  font-weight: 700;
   line-height: 0.8;
   padding-bottom: 30px;
 }
@@ -207,6 +208,7 @@ img {
 .form-search {
   width: 466px;
   position: absolute;
+  top: 100%;
   z-index: 10;
   left: 50%;
   margin-left: -285px;
