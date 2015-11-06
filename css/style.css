@@ -395,8 +395,13 @@ img {
   background-repeat: no-repeat;
 }
 
+.structure-filter>h2 {
+  margin-bottom: 25px;
+}
+
 .structure-filter label {
   display: block;
+  margin-bottom: 25px;
 }
 
 .hotel-filter>.hotel-col-2 {
@@ -404,8 +409,29 @@ img {
   padding-left: 7.5%;
 }
 
+.type-filter>h2 {
+  margin-bottom: 25px;
+}
+
 .type-filter label {
   display: block;
+  margin-bottom: 25px;
+}
+
+input[type="checkbox"]{
+  display: none;
+}
+
+.structure-filter label:before {
+  content: '\2610';
+}
+
+.type-filter label:before {
+  content: '\2610';
+}
+
+input[type="checkbox"]:checked+label:before {
+  content: '\2611';
 }
 
 .filter-content-header ul li {
@@ -422,9 +448,19 @@ img {
 
 .triangles a {
   display: inline-block;
-  margin-right: 10px;
 }
 
+.icon-up-dir {
+  color: #cccccc;
+  font-size: 21px;
+}
+
+.icon-down-dir {
+  color: #81b3d2;
+  font-size: 21px;
+}
+
+/*
 .triangle-bottom {
   margin-top:5px;
   margin-right: 5px;
@@ -443,38 +479,20 @@ img {
   border: 5px transparent solid;
   border-bottom: 9px #cccccc solid;
 }
+*/
 
 .rate-value {
+  display: inline-block;
   background-color: #f2f2f2;
   padding: 5px 10px;
   width: 90px;
-  position: relative;
-  left: 100%;
-  margin-left: -110px;
+  text-align: right;
 }
 
 .rate-stars {
-  position: relative;
-  left: 100%;
-  height: 16px;
-  background-image: url(../img/rate-star.png);
-  background-position: right;  
+  font-size: 21px;
+  color: #81b3d2;
   margin-bottom: 45px;
-}
-
-.rate-stars-4{
-  width: 64px;
-  margin-left: -64px;
-}
-
-.rate-stars-2{
-  width: 32px;
-  margin-left: -32px;
-}
-
-.rate-stars-3{
-  width: 48px;
-  margin-left: -48px;
 }
 
 
