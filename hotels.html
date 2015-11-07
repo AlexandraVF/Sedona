@@ -24,22 +24,22 @@
             <form class="hotel-filter clearfix" action="">
               <div class="hotel-col hotel-col-1 structure-filter">
                   <h2>Инфрастуктура</h2>                  
-                  <label for="swim"><input id="swim" type="checkbox">Бассейн</label>
-                  <label for="park"><input id="park" type="checkbox">Парковка</label>
-                  <label for="wi-fi"><input id="wi-fi" type="checkbox">Wi-fi</label>
+                  <input id="swim" type="checkbox"><label for="swim">Бассейн</label>
+                  <input id="park" type="checkbox"><label for="park">Парковка</label>
+                  <input id="wi-fi" type="checkbox"><label for="wi-fi">Wi-fi</label>
                 </div>
                 <div class="hotel-col hotel-col-2 type-filter">
                   <h2>Тип жилья</h2>       
-                  <label for=""><input type="checkbox">Гостиница</label>
-                  <label for=""><input type="checkbox">Мотель</label>
-                  <label for=""><input type="checkbox">Аппартаменты</label>
+                  <input id="hotel" type="checkbox"><label for="hotel">Гостиница</label>
+                  <input id="motel" type="checkbox"><label for="motel">Мотель</label>
+                  <input id="appartment" type="checkbox"><label for="appartment">Аппартаменты</label>
                 </div>
                 <div class="hotel-col hotel-col-3 cost-filter">
                   <h2>Стоимость в сутки (Р):</h2>             
                   <label for="">От</label><input type="text" value="0">
                   <label for="">До</label><input type="text" value="3000">
                   <div class="cost-filter"></div>
-                  <input type="submit" value="Показать">
+                  <input class="btn" type="submit" value="Показать">
                 </div>
             </form>
           </div>  
@@ -51,7 +51,7 @@
           <ul class="hotel-col hotel-col-2">
             <li>Сортировка:</li>
             <li>
-                <a href="#">По цене</a>            
+                <a class="active" href="#">По цене</a>            
               </li>
               <li>
                 <a href="#">По типу</a>            
@@ -73,8 +73,8 @@
           </div>
           <div class="hotel-col hotel-col-2 filter-info">            
             <h2>Amara Resort & Spa</h2>
-              <div><p>Гостиница</p><a href="">Подробнее</a></div>              
-              <div><p>От 3500 р.</p><a href="">Забронировать</a></div>  
+              <div><p>Гостиница</p><a class="btn btn-more" href="">Подробнее</a></div>              
+              <div><p>От 3500 р.</p><a class="btn btn-book" href="">Забронировать</a></div>  
           </div>        
           <div class="hotel-col hotel-col-3 filter-rate">
             <div class="rate-stars"><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i></div>
@@ -89,8 +89,8 @@
           </div>
           <div class="hotel-col hotel-col-2 filter-info">
             <h2>Desert Quail Inn</h2>
-            <div><p>Мотель</p><a href="">Подробнее</a></div>
-            <div><p>От 2000 р.</p><a href="">Забронировать</a></div>            
+            <div><p>Мотель</p><a class="btn btn-more" href="#">Подробнее</a></div>
+            <div><p>От 2000 р.</p><a class="btn btn-book" href="#">Забронировать</a></div>            
           </div>          
           <div class="hotel-col hotel-col-3 filter-rate">
             <div class="rate-stars"><i class="icon-star"></i><i class="icon-star"></i></div>
@@ -105,8 +105,8 @@
           </div>
           <div class="hotel-col hotel-col-2 filter-info">           
             <h2>Villas at Poco Diablo</h2>
-            <div><p>Апартаменты</p><a href="">Подробнее</a></div>
-            <div><p>От 4000 р.</p><a href="">Забронировать</a></div>            
+            <div><p>Апартаменты</p><a class="btn btn-more" href="#">Подробнее</a></div>
+            <div><p>От 4000 р.</p><a class="btn btn-book" href="#">Забронировать</a></div>            
           </div>
           <div class="hotel-col hotel-col-3 filter-rate">
             <div class="rate-stars"><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i></div>
@@ -126,6 +126,6 @@
           <a class="footer-logo-icon" href="#"></a>
         </div>      
       </footer>
-      </div>
+    </div>
   </body>
 </html>
