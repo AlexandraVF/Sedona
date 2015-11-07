@@ -23,24 +23,36 @@
           <div class="hotel-wrapper">       
             <form class="hotel-filter clearfix" action="">
               <div class="hotel-col hotel-col-1 structure-filter">
-                  <h2>Инфрастуктура</h2>                  
-                  <input id="swim" type="checkbox"><label for="swim">Бассейн</label>
-                  <input id="park" type="checkbox"><label for="park">Парковка</label>
-                  <input id="wi-fi" type="checkbox"><label for="wi-fi">Wi-fi</label>
-                </div>
-                <div class="hotel-col hotel-col-2 type-filter">
-                  <h2>Тип жилья</h2>       
-                  <input id="hotel" type="checkbox"><label for="hotel">Гостиница</label>
-                  <input id="motel" type="checkbox"><label for="motel">Мотель</label>
-                  <input id="appartment" type="checkbox"><label for="appartment">Аппартаменты</label>
-                </div>
-                <div class="hotel-col hotel-col-3 cost-filter">
-                  <h2>Стоимость в сутки (Р):</h2>             
-                  <label for="">От</label><input type="text" value="0">
-                  <label for="">До</label><input type="text" value="3000">
-                  <div class="cost-filter"></div>
-                  <input class="btn" type="submit" value="Показать">
-                </div>
+                <h2>Инфрастуктура</h2>                  
+                <input id="swim" type="checkbox"><label for="swim">Бассейн</label>
+                <input id="park" type="checkbox"><label for="park">Парковка</label>
+                <input id="wi-fi" type="checkbox"><label for="wi-fi">Wi-fi</label>
+              </div>
+              <div class="hotel-col hotel-col-2 type-filter">
+                <h2>Тип жилья</h2>       
+                <input id="hotel" type="checkbox"><label for="hotel">Гостиница</label>
+                <input id="motel" type="checkbox"><label for="motel">Мотель</label>
+                <input id="appartment" type="checkbox"><label for="appartment">Аппартаменты</label>
+              </div>
+              <div class="hotel-col hotel-col-3 cost-filter">
+                <h2>Стоимость в сутки (Р):</h2>
+                  <div class="cost-filter-wrapper">
+                    <div>     
+                      <label for="from">От<input id="from" type="text" value="0"></label>
+                    </div>  
+                    <div>
+                      <label for="to">До<input id="to" type="text" value="3000"></label>
+                    </div>
+                  </div>
+                  <div class="range-controls">
+                    <div class="scale">
+                      <div class="bar"></div>
+                    </div>
+                    <div class="toggle toggle-min"></div>
+                    <div class="toggle toggle-max"></div>
+                  </div>        
+                  <input class="btn" type="submit" value="Показать">                   
+              </div>
             </form>
           </div>  
         </div>
