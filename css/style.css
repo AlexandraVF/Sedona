@@ -93,8 +93,11 @@ img {
 }
 
 .wrapper {
-  width: 1200px;
   margin: 0 auto;
+   max-width: 1200px;
+   min-width: 768px;
+   background-color: white;
+   box-shadow: 0 0 20px 0 rgba(0,0,0,.2)  
 }
 
 .main-nav ul {
@@ -299,10 +302,12 @@ img {
   font-weight: 700;
   text-transform: uppercase;
   background-color: #ffffff;
+  box-shadow: 0 30px 50px rgba(0,0,0,.7);
 }
 
 .form-search div {
   margin-bottom: 30px;
+  position: relative;
 }
 
 .form-search label {
@@ -321,9 +326,36 @@ img {
   padding-left: 10px;
   width: 335px;
 }
-
+.icon-calendar {
+  position: absolute;
+  right: 0;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-right: 10px;
+  font-size: 21px;
+  color: #c2c2c2;
+}
 .form-search input[type="text"]:hover {
   background-color: #ebebeb;
+}
+
+.icon-calendar:hover{
+  color: #000000;
+}
+
+.icon-calendar:active{
+  color: #81b3d2;
+}
+
+.icon-plus,
+.icon-minus {
+  position: absolute;
+  top: 6px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-size: 21px;
+  color: #a9a9a9;
 }
 
 .form-search input[type="text"]:focus {
@@ -334,8 +366,12 @@ img {
 
 .people-number input[type="text"]{  
   width: 100px;
+  text-align: center;
 }
 
+label[for="children"] {
+  text-align: center;
+}
 .form-search .btn {
   background-color: #81b3d2;
   color: #ffffff;
