@@ -181,6 +181,7 @@ img {
   height: 57px;
   background-image: url(../img/header-image-mask.png);
   background-repeat: no-repeat;
+  background-position: 50%;
   position: absolute;
   bottom: 0;
 }
@@ -220,7 +221,6 @@ img {
 }
 
 .features {
-  height: 256px;
   color: #ffffff;
   background-color: #81b3d2;
 }
@@ -292,6 +292,7 @@ img {
 }
 
 .form-search {
+  display: none;
   width: 466px;
   position: absolute;
   top: 100%;
@@ -356,11 +357,12 @@ img {
 }
 
 .icon-minus {
-  padding-left: 10px;
+  left: 140px;
+  z-index: 1;
 }
 
 .icon-plus {
-  padding-left: 85px;
+  right:15px;
 }
 
 .icon-plus:hover,
@@ -378,8 +380,12 @@ img {
   outline: 2px solid #e5e5e5;
 }
 
+.people-number {
+  float: left;
+}
 
 .people-number input[type="text"]{  
+  position: relative;
   width: 100px;
   text-align: center;
 }
